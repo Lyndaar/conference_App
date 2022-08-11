@@ -27,8 +27,8 @@ public class Session {
     public Session(){
     }
 
-    public Set<Speaker> getSpeakers() {
-        return (Set<Speaker>) speakers;
+    public List<Speaker> getSpeakers() {
+        return (List<Speaker>) speakers;
     }
 
     public void setSpeakers(List<Speaker> speakers) {

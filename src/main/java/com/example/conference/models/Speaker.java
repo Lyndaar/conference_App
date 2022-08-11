@@ -28,8 +28,8 @@ public class Speaker {
     public Speaker() {
     }
 
-    public Set<Session> getSessions() {
-        return (Set<Session>) sessions;
+    public List<Session> getSessions() {
+        return (List<Session>) sessions;
     }
 
     public void setSessions(List<Session> sessions) {
